@@ -1,0 +1,113 @@
+{
+    "contractName": "sendMoneyExample",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "reciveMoney",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"reciveMoney\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/nico/dev/solidty-bootcamp/SendMoneyExample.sol\":\"sendMoneyExample\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/nico/dev/solidty-bootcamp/SendMoneyExample.sol\":{\"keccak256\":\"0xa1049f09112daf8ff2d6d193e9639bf924cda701363743b20161d2558b53587d\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://356a3bd196a4120cccb7e0d52bf2b3b17c3dfd090184622aa98d66321f65f51e\",\"dweb:/ipfs/QmcSR5odmhN8yZDwzCH6DBec4NUrww8y8WXMskbyFyi53r\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50605980601d6000396000f3fe608060405260043610601c5760003560e01c80633afa8ebd146021575b600080fd5b00fea2646970667358221220c37f8dc68fd93d41102a574b0f75c30179121fd5e0454be8b9bc99e90ac8062b64736f6c63430008090033",
+    "deployedBytecode": "608060405260043610601c5760003560e01c80633afa8ebd146021575b600080fd5b00fea2646970667358221220c37f8dc68fd93d41102a574b0f75c30179121fd5e0454be8b9bc99e90ac8062b64736f6c63430008090033",
+    "sourceMap": "66:79:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "66:79:0:-:0;;;;;;;;;;;;;;;;;;;;;97:45;",
+    "sourcePath": "c:/Users/nico/dev/solidty-bootcamp/SendMoneyExample.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.9+commit.e5eed63a"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/nico/dev/solidty-bootcamp/SendMoneyExample.sol",
+        "exportedSymbols": {
+            "sendMoneyExample": [
+                6
+            ]
+        },
+        "id": 7,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".1"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "sendMoneyExample",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 6,
+                "linearizedBaseContracts": [
+                    6
+                ],
+                "name": "sendMoneyExample",
+                "nameLocation": "75:16:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 4,
+                            "nodeType": "Block",
+                            "src": "134:8:0",
+                            "statements": []
+                        },
+                        "functionSelector": "3afa8ebd",
+                        "id": 5,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "reciveMoney",
+                        "nameLocation": "106:11:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "117:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 3,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "134:0:0"
+                        },
+                        "scope": 6,
+                        "src": "97:45:0",
+                        "stateMutability": "payable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 7,
+                "src": "66:79:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:108:0"
+    },
+    "functionHashes": {
+        "reciveMoney()": "3afa8ebd"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "17800",
+            "executionCost": "69",
+            "totalCost": "17869"
+        },
+        "external": {
+            "reciveMoney()": "74"
+        }
+    }
+}
