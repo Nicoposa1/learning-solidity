@@ -6,4 +6,9 @@ contract sendMoneyExample {
   function reciveMoney() public payable{
 
   }
+
+  function getBalnce() public view returns (uint) {
+    return address(this).balance;
+  }
+
 }
